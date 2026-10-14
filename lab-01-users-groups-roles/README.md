@@ -68,4 +68,3 @@ The lab touches common access control ideas that appear in NIST SP 800-53 under 
 - "users" search result for each test user
 - Security Tasks and Follow On Tasks pages as test.fulfiller
 
-Do not include passwords, admin credentials, or your instance URL.
