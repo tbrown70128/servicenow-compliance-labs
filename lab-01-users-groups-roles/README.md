@@ -60,11 +60,44 @@ The lab touches common access control ideas that appear in NIST SP 800-53 under 
 - Testing with impersonation catches surprises that reading role names does not.
 - "Least privilege" has to be checked against what a role actually opens up, not what it is called.
 
-## Screenshots to include
-- Users list filtered to `test.`
-- Group list showing Access Fulfillment and Compliance Review
-- Roles tab for each group
-- Navigator as test.fulfiller, test.requester, and test.auditor
-- "users" search result for each test user
-- Security Tasks and Follow On Tasks pages as test.fulfiller
+## Screenshots
 
+**Fulfiller navigator (broad access from the itil role)**
+
+![Fulfiller navigator](193720.png)
+
+**Fulfiller inherited roles (from the itil role)**
+
+![Fulfiller inherited roles](fulfiller-inherited-roles.png)
+
+**Fulfiller "users" search (no User Administration)**
+
+![Fulfiller users search](214104.png)
+
+**Requester navigator (self-service only)**
+
+![Requester navigator](193940.png)
+
+**Requester "users" search (no results)**
+
+![Requester users search](211108.png)
+
+**Auditor navigator (same short menu as the requester)**
+
+![Auditor navigator](204258.png)
+
+**Auditor "users" search (no results)**
+
+![Auditor users search](194050.png)
+
+**Fulfiller Follow On Tasks (empty list)**
+
+![Fulfiller follow on tasks](204148.png)
+
+**Fulfiller Security Tasks (0 tasks)**
+
+![Fulfiller security tasks](204246.png)
+
+**Fulfiller Compliance section (only My Follow On Tasks)**
+
+![Fulfiller compliance section](211326.png)
